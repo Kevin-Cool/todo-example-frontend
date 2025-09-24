@@ -1,0 +1,110 @@
+.todo-card {
+    box-shadow: var(--shadow-sm);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+}
+
+.todo-card-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.todo-card-content {
+    min-width: 0;
+}
+
+.todo-title {
+    margin: 0.5rem 0;
+    font-weight: 600;
+    font-size: 1rem;
+    word-break: break-word;
+}
+
+.todo-desc {
+    margin-top: var(--space-2);
+    font-size: 0.875rem;
+    color: var(--text-muted-2);
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.meta-row {
+    margin-top: var(--space-3);
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.meta-inline {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.archived-label {
+    color: var(--amber-700);
+}
+
+.todo-actions {
+    margin-left: var(--space-4);
+}
+
+:root {
+    --actions-w: 6.5rem;
+}
+
+.todo-card-inner {
+    position: relative;
+    align-items: stretch;
+}
+
+.todo-actions {
+    position: absolute;
+    top: var(--space-3);
+    right: var(--space-3);
+    display: flex;
+    gap: var(--space-2);
+    pointer-events: auto;
+}
+
+.todo-head {
+    padding-right: var(--actions-w);
+}
+
+.todo-body {
+    margin-top: var(--space-2);
+}
+
+.todo-title {
+    margin: 0.5rem 0 0 0;
+}
+
+@media (max-width: 480px) {
+    :root {
+        --actions-w: 2.25rem;
+    }
+
+    .todo-actions .p-button.p-button-text.p-button-sm .p-button-label {
+        display: none;
+    }
+
+    .todo-actions .p-button .p-button-icon {
+        margin: 0;
+    }
+}
+
+.p-card.p-card-compact .p-card-body {
+    padding-top: 0.5rem;
+}
+
+.p-card.p-card-compact .p-card-content {
+    padding-top: 0;
+    padding-bottom: 0.25rem;
+}
+
+.p-card.p-card-compact .p-card-header {
+    padding-bottom: 0.25rem;
+}

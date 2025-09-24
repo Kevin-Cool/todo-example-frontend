@@ -1,0 +1,36 @@
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--surface-ground);
+    padding: 1rem;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background: var(--surface-card);
+}
+
+.login-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+
+.full-width,
+.full-width>.p-icon-field {
+    width: 100%;
+}

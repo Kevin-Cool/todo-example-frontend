@@ -1,0 +1,40 @@
+.editTodoFooter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+.editTodoForm {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.editTodoField {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.editTodoLabel {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+}
+
+.editTodoUserOption {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.editTodoSelectedChip {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.editTodoMultiSelect {
+    width: 100%;
+}
