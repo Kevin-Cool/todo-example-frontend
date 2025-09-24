@@ -50,3 +50,7 @@ This project demonstrates authentication with JWT, real-time updates, and role-b
 - [Vite](https://vitejs.dev/)
 - [PrimeReact](https://primereact.org/)
 - [SignalR](https://learn.microsoft.com/aspnet/core/signalr)
+
+### Backend Setup
+This project requires the backend API to be running.  
+You can find the backend here: [Todo Backend](https://github.com/Kevin-Cool/todo-example-backend).
